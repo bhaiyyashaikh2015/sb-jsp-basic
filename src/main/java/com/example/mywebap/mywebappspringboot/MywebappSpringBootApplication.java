@@ -2,9 +2,10 @@ package com.example.mywebap.mywebappspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class MywebappSpringBootApplication {
+public class MywebappSpringBootApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MywebappSpringBootApplication.class, args);

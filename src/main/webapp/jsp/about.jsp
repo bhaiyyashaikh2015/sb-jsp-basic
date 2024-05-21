@@ -6,7 +6,7 @@
 <meta charset="ISO-8859-1">
 <title>About</title>
 </head>
-<body>
+<body background="<%=request.getContextPath()%>/img/pink-rose.jpg">
 	<h1>Now you are on about page...</h1>
 	<br>
 	<hr>
